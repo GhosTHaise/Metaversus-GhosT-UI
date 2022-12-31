@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { ExploreCard, TitleText, TypingText } from "../components"
 
 import styles from "../styles";
-import { fadeIn, staggerContainer } from "../utils/motion";
+import { staggerContainer } from "../utils/motion";
 
 import { exploreWorlds } from "../constants";
 

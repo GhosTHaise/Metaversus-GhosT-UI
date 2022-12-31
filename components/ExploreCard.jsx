@@ -36,6 +36,7 @@ const ExploreCard = ({id,imgUrl,title,index,active,handleClick}) => {
             <h2 className={`mt-[24px] font-semibold sm:text-[32px] text-24px text-white`}> {title}</h2>
         </div>
       )}
+      {/* 1:14 */}
     </motion.div>
   )
 };
