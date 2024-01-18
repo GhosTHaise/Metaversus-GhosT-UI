@@ -4,9 +4,7 @@ import {motion} from "framer-motion";
 import styles from "../styles"
 import { fadeIn } from "../utils/motion";
 
-const ExploreCard = ({id,imgUrl,title,index,active,handleClick}) => {
-   // destructuring => console.log(props)
-   return(
+const ExploreCard = ({id,imgUrl,title,index,active,handleClick}) => (
     <motion.div
       variants={fadeIn("right","spring",index * 0.5,0.8)}
       className={`relative ${active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"}
@@ -39,6 +37,5 @@ const ExploreCard = ({id,imgUrl,title,index,active,handleClick}) => {
       {/* 1:14 */}
     </motion.div>
   )
-};
 
 export default ExploreCard;
