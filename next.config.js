@@ -3,7 +3,7 @@ const nextConfig = {
   "reactStrictMode": true,
 
  // Add basePath
-  "basePath": '/',
+  "basePath": '/home',
   "output": "export",
   "images": {
     "unoptimized": true
